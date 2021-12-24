@@ -1,0 +1,41 @@
+
+hpeesofsim (*) 551.shp Oct 27 2021, MINT version 5
+    (64-bit windows built: Thu Oct 28, 2021 03:25:42 +0000)
+
+
+***** Simulation started at Mon Dec 20 22:13:05 2021
+      Running on host: "LAPTOP-77OCM55A"
+      In Directory: "C:\Users\gonza\Documents\GitHub\ICRcode\Torreta\pcb\amplificador_wrk\data"
+      Process ID: 4204
+
+Message from hpeesofsim during netlist parsing.
+    Booting of NXP FET2 Power Kit was successful!
+
+Warning detected by hpeesofsim during netlist flattening.
+    Resistor `FET2NXP2.R1' is shorted.
+
+Warning detected by hpeesofsim during netlist flattening.
+    Resistor `FET2NXP2.R2' is shorted.
+
+Warning detected by hpeesofsim during netlist flattening.
+    Inductor `FET2NXP2.L1' L=-4.43895e-10 is negative.
+
+Warning detected by hpeesofsim during netlist flattening.
+    Inductor `FET2NXP2.L2' L=-4.17951e-11 is negative.
+
+Warning detected by hpeesofsim during circuit set up.
+    Mutual inductor `FET2NXP2.Stage2.Mutual1' has an unphysical mutual inductance M=-7.250e-13.
+    L1=1.000e-16 L2=1.000e-16; limit for M is +/-1.000e-16.
+
+Warning detected by hpeesofsim during circuit set up.
+    Mutual inductor `FET2NXP2.Stage1.Mutual1' has an unphysical mutual inductance M=-4.505e-12.
+    L1=1.000e-16 L2=1.000e-16; limit for M is +/-1.000e-16.
+
+Pt DC convergence is used.
+
+SP SP1[1] <amplificador_lib:cell_1:schematic>   freq=(2.4 GHz->2.5 GHz)
+
+
+Resource usage:
+  Total stopwatch time     =     1.86 seconds.
+
